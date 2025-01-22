@@ -62,7 +62,7 @@ footer {
     color: white; /* 保持文字颜色为白色 */
     padding: 10px 0; /* 设置适当的上下内边距 */
     text-align: center; /* 文字居中对齐 */
-    position: relative; /* 让它自然流动，而非固定定位 */
+    position: fixed; 
     z-index: 10; /* 确保 footer 在页面内容之上 */
 }
 
