@@ -58,11 +58,15 @@ ul {
 }
 
 footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: transparent; /* 让背景透明 */
+    color: white; /* 保持文字颜色为白色 */
+    padding: 10px 0; /* 设置适当的上下内边距 */
+    text-align: center; /* 文字居中对齐 */
+    position: relative; /* 让它自然流动，而非固定定位 */
+    z-index: 10; /* 确保 footer 在页面内容之上 */
 }
+
+body {
+    margin-bottom: 60px; /* 给底部留出空间，避免 footer 覆盖内容 */
+}
+
