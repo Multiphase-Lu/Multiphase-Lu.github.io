@@ -59,7 +59,7 @@ ul {
 
 footer {
     background-color: transparent; /* 让背景透明 */
-    color: blue; /* 保持文字颜色为白色 */
+    color: black; /* 保持文字颜色为白色 */
     padding: 10px 0; /* 设置适当的上下内边距 */
     text-align: center; /* 文字居中对齐 */
     position: fixed; 
