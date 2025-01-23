@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: #f4f4f4; /* 你可以修改成你喜欢的背景颜色或使用图片 */
-
+    padding-bottom: 60px; /* 给底部留出足够的空间避免 footer 覆盖内容 */
 }
 
 header {
@@ -57,16 +57,27 @@ ul {
     padding-left: 20px;
 }
 
+/* footer */
 footer {
-    background-color: transparent; /* 让背景透明 */
-    color: black; /* 保持文字颜色为白色 */
+    background-color: #f1f1f1; /* 你可以设置一个背景色，突出 footer */
+    color: black;
     padding: 10px 0; /* 设置适当的上下内边距 */
     text-align: center; /* 文字居中对齐 */
-    position: fixed; 
+    position: fixed;
+    bottom: 0; /* 固定在页面底部 */
+    width: 100%; /* 确保 footer 跨整个页面宽度 */
     z-index: 10; /* 确保 footer 在页面内容之上 */
 }
 
-body {
-    margin-bottom: 60px; /* 给底部留出空间，避免 footer 覆盖内容 */
+footer a {
+    color: black;
+    text-decoration: none;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
